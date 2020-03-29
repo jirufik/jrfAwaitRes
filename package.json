@@ -1,0 +1,52 @@
+{
+  "name": "jrf-await-res",
+  "version": "1.0.0",
+  "description": "await res for socket io callback",
+  "main": "index.js",
+  "scripts": {
+    "startExampleServer": "node ./example/server.js",
+    "startExampleClient": "node ./example/client.js",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "./tests"
+    ],
+    "collectCoverage": true
+  },
+  "keywords": [
+    "socketIO",
+    "socket",
+    "io",
+    "realtime",
+    "asyc/await",
+    "websockets",
+    "websocket",
+    "jrf"
+  ],
+  "author": {
+    "name": "jirufik",
+    "url": "https://github.com/jirufik"
+  },
+  "maintainers": [
+    {
+      "name": "jirufik",
+      "url": "https://github.com/jirufik"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirufik/jrfAwaitRes"
+  }
+}
